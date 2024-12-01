@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    }
+nav a {
+     color: #ff5733;
+    text-decoration: none;
+    margin-right: 10px;
+    }
+.ascii {
+        font-size: 3.8px;
+}
+.navegacao {
+    font-size: 20px;
+}
+.navegacaochaves{
+    font-size: 25px;
+}
+
+.imagem {
+    width: 70%;
+}
+@media screen and (max-width: 768px) {
+    .ascii {
+        font-size: 1.8px;
+    }
+    nav a {
+         color: #ff5733;
+        text-decoration: none;
+        margin-right: 18px;
+        }
+        .navegacao{
+            font-size: 19px;
+        }
+        .navegacaochaves{
+            font-size: 23px;
+        }
+    .imagem {
+        width: 200%;
+    }
+}
