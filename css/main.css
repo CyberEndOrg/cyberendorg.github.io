@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
     font-family: 'Courier New', Courier, monospace;
     }
@@ -36,7 +36,4 @@ nav a {
         .navegacaochaves{
             font-size: 23px;
         }
-    .imagem {
-        width: 200%;
-    }
 }
