@@ -26,3 +26,8 @@ changelog movido para 049qwlf
 adicionado arquivo CNAME, para o github
 index.html arrumado porque o macaco do mil nao sabe fazer pra mobile
 -zufinho
+
+--1.6--
+script para puxar ip mudado para direto na fonte, pq o src="/src/..js" não tava funcionando
+script mudado para 049qwlf
+-zufinho
