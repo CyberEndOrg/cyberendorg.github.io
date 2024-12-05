@@ -1,0 +1,28 @@
+--1.3--
+Pagina 404 com link para o index.html
+Pagina 404 não pega mais ip se estiver sendo executada offline (direto no arquivo sem ser no site oficial)
+index.html com iplogger
+mudanças minimas no donates.html (outro bloco para endereço de bitcoin)
+Changelog criado
+mudanças minimas nas ascii (removido a porrada de configuração, que ja é configurado em main.css, agora só precisa conter o padding se necessario)
+-zufinho
+--1.4--
+Changelog e version movidos para /src
+arquivo robots.txt e sitemap.xml criados (para os bots do google botarem nos mecanismos de buscas)
+o arquivo js de iplogger a.js mudou de nome para regwergwefdsdfewqasd.js (dificultar alguem achar esse arquivo e descobrir que o site puxa ip)
+arrumado o erro 404.html, que se ele fosse iniciado em uma pasta, por exemplo cenetwork.xyz/wefqwef , ele não executaria o script.
+ascii do donate arrumada (pontos no meio do nada deletados, dando um aspecto mais limpo, e espacos em brancos arrumados, enchendo a ascii)
+ascii do olho modificada no form2.html (tirei os bglh "flutuando" no ao redor de dentro do olho)
+ascii do sobre modificada (3 versões, salvadas no sobre2.html e sobre3.html, sendo a versão 2 deletando os pontos aleatorios na cara do boneco, e a versão 3 deletando os pontos do corpo todo, uma parte da face arrumada e o bone arrumado.)
+-zufinho
+
+--1.5--
+Pagina de formularios feita
+ascii do index.html foi pra esquerda, e o texto pra direita, dando um aspecto melhor.
+-mil
+
+pagina de donate apenas com monero,no futuro terá com bitcoin
+changelog movido para 049qwlf
+adicionado arquivo CNAME, para o github
+index.html arrumado porque o macaco do mil nao sabe fazer pra mobile
+-zufinho

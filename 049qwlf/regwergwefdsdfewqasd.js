@@ -1,7 +1,7 @@
 function carregarBowser() {
     return new Promise((resolve, reject) => {
         if (typeof bowser !== 'undefined') {
-            resolve(bowser);  // Resolve quando Bowser estiver disponível
+            resolve(bowser);
         } else {
             reject('Bowser não carregado!');
         }
