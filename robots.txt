@@ -1,0 +1,9 @@
+# Будьте осторожны в том, что вы пытаетесь сделать
+
+
+User-agent: *
+Disallow: /src
+Disallow: /css
+Disallow: /404.html
+
+Sitemap: https://cenetwork.xyz/src/sitemap.xml

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Cyber End">
+    <link rel="icon" href="src/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css">
+    <title>C.E</title>
+    <style>
+        body {
+            overflow-x: hidden;
+            font-family: monospace;
+            background-color: #000; 
+            color: #f0d1f0; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+        }
+        .ascii {
+            font-size: 8px;
+            display: block;
+        }
+        .warning-message {
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            margin: 0 auto;
+        }
+        .warning-message h1 {
+            font-size: 18px;
+            margin: 0;
+            color: #c400c4;
+        }
+        .warning-message nav a {
+            color: rgb(252, 6, 6);
+            font-size: 20px;
+            text-decoration: none;
+        }
+        @media screen and (max-width: 768px) {
+    .ascii {
+        font-size: 2px;
+    }
+    .warning-message h1 {
+            font-size: 10px;
+            margin: 0;
+        }
+    .warning-message nav a {
+        font-size: 5.8px;
+        display: inline-block;
+        text-decoration: none;
+    }
+}
+    </style>
+</head>
+<body>
+    <pre class="ascii"> 
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWNNWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWNNWWWXOOXWXKNNWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWN0k0K0kodkkdookKXWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWNNWWWWN0kkkdoooccc:,:oONWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWN0OK0kOXXKXNKkkOOkkdl:;:;';o0WWWWWWWWXKK00XWWNNWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWXkxkdllxxxkkooddlllcc;,,'.,oKWWWWWNNN0xdookKOxkKXXXXNWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWNKOxxkkdlodxxc:odol;:lc,,'..:kOkXWXK0OOOddxdlcclcc:clONWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWNOxxxkxodxxdolloooooc::,,'...'';OX0OOxdxxxOklclc;,.'dNWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWXKKXKOxxxlclddoc:dOkdccc:,''........oK0kdodxxddxdl::,''':0WWXXWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWNXKXWWWXKXNXXX00K0OkkOxllolc;;:c;,:ool:;;,''........,:oOOdoloolc:::;;;;;'.'cxdlxNWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWXOkkOOkooollldxkxdxocc;;ll:llcloc:loc;,.........';::lxxxxxkxddl:,:ll:;;,'''...':kXNWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWXOkkoloxdc;;:loooc:;,,:loddlcoxo:;:;,'.......,cllokkdddodxkddl;;c:::cll:cc:::,.';cOWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWXKOdddxxkxl;,',;;:,,:ooccddloodkxl::;'''......'coollddddddxOkdl::dOxccddlcc:;:;....'l0XKXWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWKxolodxxdc;;,'''',;lxxolcllc;;cc;,;,''''........':cdkxxkdllll::ldoooc:loc:cc;'.......:l:oXNXXNWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWXd:cccloc,,ldlll;,,,;codl;;,,,;c::;'..'''........:cdxoddl:cc:,;;:::::;:cc:,'...........,x0OxxOXWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWXOl;clodoc,,lxkOxc;,,cxkxocccllllclc,.,cl:''.''..';;c:;:cc:;:;'..',;;,,,,,;,............':ok0xdOKXWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWNNWNKKXKkc'':l:;,:oooolc;,'':l:,..:do;'''''';cdkl;;::,.......',,;''''....'''''''....'...........';::;;clo0WWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWNXKOk00OOkl;,...'..':lc:;::,..........',.......',cdooddxl,..................''...............'..'''....;ccoONWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWN0Okdkkkdl;'.........,:;,''......,,,,.,lc;;cc:,';odl:clc;,''''.........'....................',,.''..,coodOXWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWX0k0XXOocodol:;;:;,'.................'cxxkdlxklcooc:;,',;:llc:;'...........;'...'............'''..'''...',;okkOXWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWN0xdxkkxxdddookocll;'...........',::',cdxxxdodoloool;,'....',,'.....''......,,...'.............'..'''.,,:ooolldkXWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWN0kdxxdoooldxkOxl:;,............;okko:clc:coxdl:::;,............','............................''';lc:oxldKWNKXWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWN0xooolloolodxdc:;;,'........';;;:oddoodxolloddlc:,.............,;'.....'''........................;xOodKNXNWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWN0kxxkxoccccc:;;,',,,........,dOkoodocokdlclddodd:,.............;:'..''''............................';lkXWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWNKkkxoddl::,,;:c::;,;;'......':cdkxxkxdooo;,lxdc:;;;'.............;;...,'....'......,cc,............;clc,,oO00NWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWNkc;:ccc;;:;'';;;::;'.......';cxkxxkdc:c:,,;:c;,'..''''...........,'........:o:clc,;dxc'..........':oxdol:cdocco0WWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWNOolc;::,','....';;...',,....',cddloolcodl:l:,......'.............'........,cdxxxdllxo:;'...'.....;lddlc:;oko;,;lkXWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWNN0ddxl;,;'....''''''.......';;,;:lcc:;,,,,....................'.....';;,cddkkdccodlc;'',,'.....':dkxc;cdxl,...;OWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWXNWN0xlc:;,,''.................';;,.........................':lc;cdddddxkxddxoooc:;:c:,....,clcllcc:;cddc'..'lkOkk0KNWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWNkoxOk:.....:lll;..,....,ccclc:cc;'....................,oxolxkxodxdodddOOo:;;,''....,:;:clooxkl;:cc,.,;;;;;;cxKNWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWNWWWWXx;';;...,''cdxd:,cd:..;oxxolcodlcc;..................',;::oolloxxdododdo:;;,'......';,,cxOkoc;;:,,',cl:,'',;xNWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWN0OOkO0x;..,;,,cdocodl::lxd:',loodol:,,''''...............,ldol:;:ldoolllcc::;,,,.......,:cl;':lodoc;'','.'',,....':d0NWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWNXOkko:;;'.,cl:lxxdlol:;;cc,..'::;:cc::c,.................'cooc:;;;:::ldodxccdxd:.''...,,;oxd:cxxc,,,'...............;dKKXWWWWWWWWWWWWWW
+      WWWWWWWWWWWNNNNOxkxooo:'';lc;:lddoc:::;;'....'';c;'',,'.................';,'':c;;;;;cccdkdcll:,''...';lxkxolcdd:;:;'''..............:ldkXWWWWWWWWWWWWW
+      WWWWWWWWWWXOk0KOdlcoxdc;;;;,',cdl:codc,'.'......'........................'...',',co:;::cc:;;;,''..'coc:cooodo::ldol:,'..............':xXWWWWWWWWWWWWWW
+      WWWWWWWWWWN0kkkdlodoc;''...''.','';c:,...........................................''.';,',,'''''...,:cll:;coc:;;::;,',,'..........':l:ckXWWWWWWWWWWWWWW
+      WWWWWWWWN0Okdoc;;lc,,''...........''.....................'''''....'''................',,,,'.......':ddl:,,;',,,,,;,'......'......:kKKKKKNWWWWWWWWWWWWW
+      WWWWWWWNklddl:;;::,''.................',,''''..............',,'''...''',''..................'''....','.,;'.,::,,.........lOkdl,...,:oxk0NWWWWWWWWWWWWW
+      WWWWWWWXd,;;;'';::,'..;'..''''.....''','....''''',;,........,:lc;,''.'.',;,'............................:ol::c;,;;'......,oXWXd;'''';:ld0NWWWWWWWWWWWW
+      WWWWWWWW0xxo;,::,'',:lolc:cc,....''...............',,,''''..;OXOl;,,,,...'''....;;.....'............''..;OXOdloO0ko;...';,lKWXxl;''l0KOOKWWWWWWWWWWWWW
+      WWWWWWWWWXkc,';::,,dKKKOxOXOll:......................,,;:::;,cdkx:;;;;'........,dxxdolcllc:,'';:;''......:oxKXNWWNKxc',dOdxKNWKxoloxXWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWNOclkxxxoONNWWWWNXkdc'..............,;....':;,,,;::,';oc;,,;;'......,xKK0Oxdlcc:;'.',,'........',lKWWWWWX0x::k0KXWWWWN0KWNWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWN0KNWNWWWWWWWWNOddl::,,,'....'.'loodc,....ckxc,'',;,'',,,,:l:;'....:dollc::lx0d'..,lc;;oo;:c:;oxONWWWWWWNOlo0XWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWN0k0kl;,;;,'..',':OWXOkdc,';dKNXkl,'.',,,,:clooc,',,,;;:llok0KKxl:;,;xKOOKkd0XKOOKWWWWWWWWWX0XNNWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWXXXx:;:c:,..cOkdKWWWKOkdxKNWWWWXx:'',,',:loooc,',,;:;:kXNWN0kl,;:xKKNWWWNNWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWW0dc:::clccdKWNWWWWNXXXWWWWWWWWKl,,;;,',;looc,'',;;,;kWWWXOxl;;:xNWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWW0xdol::d0XXNWWWWWWWWWWWWWWWWWWKl'';::;;:oxkxc,''''..lKWWN0xdO0k0NWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWK0K0dokXWWWWWWWWWWWWWWWWWWWWWN0xdo:,'',lk0ko;,,,...'xNWWWNNWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWNNWWKKNWWWWWWWWWWWWWWWWWWWWWWWWWWN0o;,;:okkdlcc::,..,kNWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWNKo:cdkkxdoolc:'..:ONWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWOlodxOOxdol::,...,xNWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWXxlcoOK0Okdl;,'..'dNWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWNkc,,d00K0koc;,'..:ONWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW0dlcxO0KK0dccc;...lXWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWN0O0Oxddkkoccc:'..lXWWWWWNWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWNOxxd::clo:,;:c:,'cKWWWNOdkXWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWXxooc,:llc;'.,lol;:o0NKxld0NWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWN0xdxdc:cllc'..,looc;'cxo:;d00KNWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWNXXWWNKkddxdoodool;...,clc:,',,''',::cONXOxk0XWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWXklxXKOkOkdllxOkolc,...';:::,''.......,clc::ox0NWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWNNNKxl:lkOOxo;';dOOoc:;'....',;:;''',,,''.....';oOXWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWKxxdl::looc;,';lxOOl;,;'...'....',,..,;:c:'.....;clOXNNNWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWNXXKOo;;;,,;;;:cloddoooc,,''..,ld:'........',;:;,'....';lxxkKNNNWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWNWWWNXK0xl:;,,,;clldxkdoo:,;;,',,,;cdo:,,;;''..''',;,'''''.......,lxO0XNXXNWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWNXK0kkO0Oxdolc;;cddooxdolc:;,;,'';:clllc:;,;:::,'',,,,;:;'.,,,'.........',;:clox0NWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWNXNNXKK00KKKKXXXXXXK0000kxdddooolcloollooodkxl:;,,;;,;;:llcc:;;;;,;:c:,''',;;:;;,,:cc::,..'',,;;;,,,,,;:dO00KKXNNNWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWNXXK0000OOkxxxxxxxxxkkO0kxkkkOOkxkkxdolc:;:clolc:loccc:::cc;;::;;;:c:;:cc;;:cooolccclllc:;;,'',;;:llclllllcccllclodxxOOkO0KNWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWNNNNX0O0OkxxxxxxxxxxkO00O000KKOkkOOOO0O00kkkO0KXNXXXXXK00Oxk00kxk0KXK00K00KK00OkkkOkOOkxdollllllcllooooooolllclllolloollodxOK00KXNNWWWWWWW
+      WWWWWWWWWWWWWWWWXKKK0KXXXK0KXXXXKKK0OkxxkkkkOOkkk0KK000KXXXXXXXNWWWWNNNXXK000KKKXKXNNWWWWWNNNNNNNNNNNNXNXKKK00KK00K000OkxkxxkkxkkkOOkkOO0K00KNNWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWNKXXK0KKKKKXNNXKKKNNXKKKXXXKKKXXXXXXKOOkkkxddddxxxxkkOO0000000KKKXNNNXNNWWWWWWWWWWNNWWWNXKKKKKKKXXNNWNNWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWNXXXXXKOO0KK0OO00OO00OO00OO000000KKXXXXNWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+      WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+    </pre>
+
+    <div class="warning-message">
+        <h1>Este site pode conter artes ASCII que não agradam a todo o público, podendo ser assustadoras ou desconfortáveis
+        para algumas pessoas.<br>Pedimos que, caso tenha sensibilidade a
+        esse tipo de conteúdo, considere com cautela a navegação em nosso site.</h1>
+        <nav>
+            <a class="navegacaochaves">[</a>
+            <a href="inicial.html">Deseja prosseguir?</a>
+            <a class="navegacaochaves">]</a>
+        </nav>
+    </div>
+</body>
+</html>
